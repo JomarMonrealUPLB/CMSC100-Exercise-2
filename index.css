@@ -1,0 +1,107 @@
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body{
+    padding: 1ch;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 1ch;
+}
+
+p{
+    text-indent: 5ch;
+    padding: 0 2ch;
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+section{
+    padding-bottom: 5ch;
+}
+
+nav{
+    margin-bottom: 5ch;
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.nav-head, .nav-options, .two-column-section, footer{
+    display: flex;
+}
+
+.nav-head{
+    padding: 1ch;
+}
+
+.featured-photo-img{
+    text-align: center;
+}
+
+.nav-head-logo{
+    background-image: url("2x2pic.jpg");
+    background-size: 3ch;
+    width: 3ch;
+    height: 3ch;
+    margin-right: 1ch;
+    border-radius: 50%;
+}
+
+
+.nav-head-name{
+    font-size: 1.5rem;
+}
+
+.nav-options{
+    margin-top: 1ch;
+    justify-content: space-around;
+    padding: 1ch;
+    background-color: rgb(8, 53, 8);
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-images{
+    width: 20%;
+}
+
+.skills, .autobiography{
+    width: 50%;
+}
+
+.skills > h1{
+    text-indent: 3ch;
+}
+.contact{
+    padding-left: 2ch;
+}
+
+.footer-logo{
+    width: 20ch;
+    height: 20ch;
+}
+
+
+
